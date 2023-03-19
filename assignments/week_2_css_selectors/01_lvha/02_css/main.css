@@ -1,0 +1,39 @@
+*{
+    margin: 0 20px;
+}
+
+html{
+    background-color: #222298;
+}
+body{
+    margin: 0 auto;
+    width: 60%;
+    background-color: #5ec25e;
+    border: 5px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border: 10px groove orange;
+    border-radius: 100%;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: mediumpurple;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+}
+
+
+#header1{
+    color: #2e2eb9;
+}
+#header2{
+    color: #7a0909;
+}

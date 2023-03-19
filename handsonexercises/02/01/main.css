@@ -1,0 +1,10 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: mediumvioletred;
+    border-radius: 15px;
+    border: 20px groove green;
+    background-image: URL("../../01/03_img/fcc image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
