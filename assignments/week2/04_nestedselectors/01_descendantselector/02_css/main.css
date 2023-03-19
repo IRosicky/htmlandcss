@@ -1,0 +1,5 @@
+/*every P inside the div*/
+div p{
+color: red;
+    font-weight: bold;
+}

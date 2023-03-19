@@ -1,0 +1,5 @@
+/*all P that is next sibling of div*/
+div~p{
+color: #82ee82;
+    font-weight: bold;
+}
