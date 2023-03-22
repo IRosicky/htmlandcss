@@ -1,9 +1,0 @@
-il{
-    display: flex;
-}
-il:nth-child(10){
-    font-style: italic;
-    font-weight: bold;
-    background-color: deepskyblue;
-    color: darkred;
-}

@@ -1,0 +1,52 @@
+il{
+    display: flex;
+}
+/*first-child*/
+il.first_child:first-child{
+    font-style: italic;
+    font-weight: bold;
+    background-color: deepskyblue;
+    color: darkred;
+}
+/*first-child*/
+il.last_child:last-child{
+    font-style: italic;
+    font-weight: bold;
+    background-color: deepskyblue;
+    color: darkred;
+}
+/*even_child*/
+il.even_child:nth-child(even){
+    font-style: italic;
+    font-weight: bold;
+    background-color: deepskyblue;
+    color: darkred;
+}
+/*odd_child*/
+il.odd_child:nth-child(odd){
+    font-style: italic;
+    font-weight: bold;
+    background-color: deepskyblue;
+    color: darkred;
+}
+/*nth_child*/
+il.fourth_child:nth-child(4){
+    font-style: italic;
+    font-weight: bold;
+    background-color: deepskyblue;
+    color: darkred;
+}
+/*only_child*/
+il.Only_child:only-child{
+    font-style: italic;
+    font-weight: bold;
+    background-color: deepskyblue;
+    color: darkred;
+}
+/*anb_child*/
+il.nthanb_child:nth-child(5n+3){
+    font-style: italic;
+    font-weight: bold;
+    background-color: deepskyblue;
+    color: darkred;
+}

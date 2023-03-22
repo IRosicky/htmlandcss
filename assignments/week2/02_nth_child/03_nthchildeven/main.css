@@ -1,9 +1,0 @@
-il{
-    display: flex;
-}
-il:nth-child(even){
-    font-style: italic;
-    font-weight: bold;
-    background-color: deepskyblue;
-    color: darkred;
-}
