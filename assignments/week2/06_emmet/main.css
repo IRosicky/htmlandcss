@@ -1,0 +1,13 @@
+#numberone{
+    color: darkblue;
+    font-size: 30px;
+}
+.twenties
+{
+    color: red;
+    font-size: 30px;
+}
+li:nth-child(50){
+    color: #82ee82;
+    font-size: 30px;
+}
