@@ -1,5 +1,70 @@
-/*every P inside the div*/
+/*add width, height, border to all divs, ps, h1s*/
+h1{
+    width: 180px;
+    height: auto;
+    border: 5px dotted black;
+}
+div{
+    width: 410px;
+    height: auto;
+    border: 5px dashed black;
+}
+p{
+    width: 400px;
+    height: auto;
+    border: 5px solid black;
+}
+
+/*Selector 01*/
+/*Specificity=1*/
+h1{
+    color: grey;
+}
+/*Selector 02*/
+/*Specificity=1*/
+h1{
+    color: lawngreen;
+}
+/*Same specificity but Green wins because it is the last color for h1*/
+
+
+/*Selector 03*/
+/*Specificity=1*/
+p{
+    color: yellow;
+}
+/*Selector 04*/
+/*Specificity=2*/
 div p{
-color: red;
-    font-weight: bold;
+    color:red;
+}
+/*Selector 05*/
+/*Specificity=10*/
+.paragraph{
+    color: deepskyblue;
+}
+/*Selector 06*/
+/*Specificity=11*/
+p.paragraph{
+    color: mediumvioletred;
+}
+/*Selector 07*/
+/*Specificity=11*/
+div .paragraph{
+    color: chocolate;
+}
+/*Selector 08*/
+Specificity=101
+#intro p{
+    color: blue;
+}
+/*Selector 09*/
+/*Specificity=110*/
+#intro .paragraph {
+    color: fuchsia;
+}
+/*Selector 10*/
+/*Specificity=111*/
+#intro p.paragraph {
+    color: darkblue;
 }
