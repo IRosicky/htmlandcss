@@ -1,0 +1,70 @@
+
+h::before{
+    content: "\a";
+    white-space: pre;
+}
+h::after{
+    content: "\a";
+    white-space: pre;
+}
+h{
+color: Blue;
+font-size: 2rem;
+}
+p1{
+    font-family: serif;
+    font-size: 2rem;
+}
+p2{
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+p3{font-family: 'Mukta', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+}
+p4{font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+p5{font-family: 'Mukta', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+p6{text-transform: uppercase;
+font-style: italic;
+    font-size: 2rem;}
+p7{
+letter-spacing: 7px;
+    font-size: 2rem;
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 20px red;
+}
+a{
+    font-size: 2rem;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+a:active{
+    text-decoration: none;
+}
+p8{
+    font-size:2rem;
+    text-decoration: line-through;
+}
+p9{
+    font-size:2rem;
+    display: block;
+    text-indent: 100px;
+}
