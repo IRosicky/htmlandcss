@@ -1,8 +1,10 @@
 div{
+    display: inline;
     font-size: 50px;
     color: red;
 }
 span{
+    display: block;
     font-size: 50px;
     color: blue;
 }
