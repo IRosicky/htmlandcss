@@ -1,0 +1,22 @@
+h{
+    font-size: 25px;
+    color: blue;
+}
+a:Link{
+
+}
+a:visited{
+
+}
+a:hover{
+
+}
+a:active{
+
+}
+img{
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 100%;
+}
