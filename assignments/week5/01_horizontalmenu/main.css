@@ -1,0 +1,13 @@
+a:link{background-color: #82ee82}
+a:visited{background-color: #6e6eec}
+a:hover{background-color: red}
+a:active{background-color: yellow}
+
+a{
+    padding: 10px;
+text-decoration: none;
+}
+li{
+    border: 2px black solid;
+    display: inline-block;
+}

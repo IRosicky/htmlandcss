@@ -1,0 +1,27 @@
+html{
+    background-color: dodgerblue;
+    height: 800px;
+}
+body{
+    margin-right: 200px;
+    margin-left: 200px;
+    border: 2px black solid;
+    background-color: #82ee82;
+}
+.h1{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h2{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    border: 10px orange groove;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+}

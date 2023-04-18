@@ -1,0 +1,36 @@
+section{
+    height: 500px;
+    margin: 50px;
+    border: 2px blue dotted;
+}
+article{
+    margin: 100px 100px;
+}
+.div1{
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: red;
+    border: 2px blue solid;
+}
+.div2{
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: blue;
+    border: 2px black solid;
+}
+.div3{
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: yellow;
+    border: 2px black solid;
+}
+.div4{
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: green;
+    border: 2px black solid;
+}
