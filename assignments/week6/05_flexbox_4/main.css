@@ -1,0 +1,40 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+    border: 2px red solid;
+}
+div{
+    /*height: 100px;*/
+}
+#fone{
+    background-color: darkblue;
+    color: darkblue;
+    width: 66.6%;
+}
+#ftwo{
+    background-color: blue;
+    color: blue;
+    width: 33.3%;
+}
+#fthree{
+    background-color: cornflowerblue;
+    color: cornflowerblue;
+    width: 33.3%;
+}
+#ffour{
+    background-color: darkgray;
+    color: darkgray;
+    width: 33.3%;
+}
+#ffive{
+    background-color: lightgray;
+    color: lightgray;
+    width: 33.3%;
+}

@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+div{
+    height: 100px;
+    border: 1px black solid;
+    text-align: center;
+    font-weight: bold;
+}
+#fone{
+    background-color: orangered;
+    width: 100%;
+}
+#ftwo{
+    background-color: lightskyblue;
+    width: 66%;
+}
+#fthree{
+    background-color: limegreen;
+    width: 33.55%;
+}
+#ffour{
+    background-color: yellow;
+    width: 50%;
+}
+#ffive{
+    background-color: rebeccapurple;
+    width: 49.55%;
+}

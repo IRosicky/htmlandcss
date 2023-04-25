@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+div{
+width: 400px;
+    height: 100px;
+    border: 1px black solid;
+    flex-grow: 1;
+}
+#ftwo{
+    flex-grow: 2;
+}

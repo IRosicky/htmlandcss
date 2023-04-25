@@ -1,0 +1,17 @@
+body{
+    border: 1px red solid;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border: 1px black solid;
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+}
