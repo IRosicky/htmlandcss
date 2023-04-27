@@ -12,20 +12,21 @@ div{
 #fone{
     background-color: orangered;
     width: 100%;
+    max-width: 99.1%;
 }
 #ftwo{
     background-color: lightskyblue;
-    width: 66%;
+    width: 65.5%;
 }
 #fthree{
     background-color: limegreen;
-    width: 33.55%;
+    width: 33.5%;
 }
 #ffour{
     background-color: yellow;
-    width: 50%;
+    width: 49.5%;
 }
 #ffive{
     background-color: rebeccapurple;
-    width: 49.55%;
+    width: 49.5%;
 }

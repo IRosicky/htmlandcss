@@ -5,32 +5,23 @@ html {
 body{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    max-width: 600px;
+    flex-direction: column;
+    width: 800px;
     height: 200px;
     border: 2px red solid;
-    justify-items: stretch;
 }
 #fone{
-    /*order: 3;*/
-    display: flex;
-    /*justify-items: stretch;*/
     background-color: darkblue;
-    width: 125px;
+    width: 33.4%;
     height: 200px;
-
 }
 #ftwo{
-    /*order: 1;*/
     background-color: blue;
-    width: 400px;
+    width: 66.6%;
     height: 100px;
-flex-flow: row wrap;
-    justify-items: stretch;
 }
 #fthree{
-    /*order: 2;*/
     background-color: cornflowerblue;
-    width: 400px;
+    width: 66.6%;
     height: 100px;
 }
