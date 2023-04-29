@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 10px solid red;
+    background-image: url("baglioni-restort-maldives-pool-beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h{
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}

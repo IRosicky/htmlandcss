@@ -1,0 +1,16 @@
+article{
+    display: flex;
+    flex-flow: row nowrap;
+}
+p{
+    order: 2;
+    width: 60%;
+}
+.a1{
+    order: 1;
+    width: 20%;
+}
+.a2{
+    order: 3;
+    width: 20%;
+}

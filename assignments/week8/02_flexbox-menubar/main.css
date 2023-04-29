@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+    list-style: none;
+    background-color: deepskyblue;
+}
+a{
+    display: block;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-top: 1px solid white;
+}
+a:hover{
+    background-color: #2e2eb9;
+}

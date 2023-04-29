@@ -1,0 +1,13 @@
+article{
+    display: flex;
+    flex-flow: row wrap;
+}
+p{
+    width: 100%;
+}
+.a1{
+    width: 50%;
+}
+.a2{
+    width: 50%;
+}
