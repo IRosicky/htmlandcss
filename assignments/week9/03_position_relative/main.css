@@ -1,0 +1,21 @@
+div{
+    color: white;
+    width: 200px;
+    height: 200px;
+    border: 2px white solid;
+    text-align: center;
+    line-height: 200px;
+
+}
+.two{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #2e2eb9;
+}
+.one{
+    background-color: rosybrown;
+}
+.three{
+    background-color: #82ee82;
+}
