@@ -1,0 +1,19 @@
+div{
+    border: 2px red solid;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.pictureone{
+    margin: 20px;
+    border: 2px red solid;
+    float: right;
+    width: 300px;
+    height: 150px;
+}
+.picturetwo{
+    margin: 20px;
+    border: 2px red solid;
+    float: left;
+    width: 300px;
+    height: 150px;
+}
