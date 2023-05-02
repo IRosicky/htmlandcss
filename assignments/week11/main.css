@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h{
+    font-size: 30px;
+    font-weight: bold;
+}
+div{
+    height: 100px;
+}
+/*first way*/
+.one{
+    background-color: yellow;
+    border: 6px blue solid;
+    width: 100%;
+}
+.two{
+    background-color: lightskyblue;
+    border: 4px black solid;
+    display: inline-block;
+    width: 10%;
+    margin-right: -4px;
+    margin-bottom: -4px;
+}
+.three{
+    background-color: forestgreen;
+    border: 4px black solid;
+    display: inline-block;
+    width: 90%;
+    margin-bottom: -4px;
+}
+.four{
+    background-color: rebeccapurple;
+    border: 6px red solid;
+    width: 100%;
+}
+/*second way*/
+.five{
+        background-color: yellow;
+        border: 6px blue solid;
+    width: 100%;
+    }
+.six{
+    background-color: lightskyblue;
+    border: 4px black solid;
+float: left;
+    width: 10%;
+}
+.seven{
+    background-color: forestgreen;
+    border: 4px black solid;
+    float: right;
+    width: 90%;
+}
+.eight{
+    background-color: rebeccapurple;
+    border: 6px red solid;
+    width: 100%;
+    clear: both;
+}
+/*third way*/
+main{
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.nine{
+    background-color: yellow;
+    border: 6px blue solid;
+    width: 100%;
+}
+.ten{
+    background-color: lightskyblue;
+    border: 4px black solid;
+    display: flex;
+    width: 10%;
+}
+.eleven{
+    background-color: forestgreen;
+    border: 4px black solid;
+    width: 90%;
+}
+.twelve{
+    background-color: rebeccapurple;
+    border: 6px red solid;
+    width: 100%;
+}
