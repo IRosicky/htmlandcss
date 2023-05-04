@@ -1,0 +1,23 @@
+div{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 2px black solid;
+    text-align: center;
+    line-height: 300px;
+}
+
+.animation{
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes colorchange {
+    0% {background-color: green;}
+    25% {background-color: blue;}
+    75% {background-color: purple;}
+    100% {background-color: red;}
+}
