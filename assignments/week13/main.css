@@ -1,0 +1,17 @@
+body {
+    height: 50vw;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border: 1px black solid;
+}
+.fa{
+margin: 2px;
+}
